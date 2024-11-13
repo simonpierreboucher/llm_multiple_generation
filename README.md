@@ -1,6 +1,6 @@
 # LLM Multiple Generation Notebook
 
-This repository contains Jupyter notebooks demonstrating various generation tasks with Large Language Models (LLMs). It provides examples for summarization, text generation, few-shot learning, and translation, utilizing different LLM APIs to showcase the capabilities of multiple providers.
+This repository contains Jupyter notebooks demonstrating various generation tasks with Large Language Models (LLMs). It provides examples for summarization, text generation, few-shot learning, translation, and question-answering, utilizing different LLM APIs to showcase the capabilities of multiple providers.
 
 ## Repository Structure
 
@@ -8,6 +8,7 @@ This repository contains Jupyter notebooks demonstrating various generation task
 - **[generate_llm_function.ipynb](https://github.com/simonpierreboucher/llm_multiple_generation/blob/main/generate_llm_function.ipynb)**: Provides examples of text generation, covering creative and informative text outputs.
 - **[fewshot_llm_function.ipynb](https://github.com/simonpierreboucher/llm_multiple_generation/blob/main/fewshot_llm_function.ipynb)**: Explores few-shot learning techniques, where the model is given a limited number of examples to guide its responses in specific tasks.
 - **[translate_llm_function.ipynb](https://github.com/simonpierreboucher/llm_multiple_generation/blob/main/translate_llm_function.ipynb)**: Illustrates language translation capabilities using LLMs, allowing for translations across multiple language pairs.
+- **[QA_llm_function.ipynb](https://github.com/simonpierreboucher/llm_multiple_generation/blob/main/QA_llm_function.ipynb)**: Demonstrates question-answering using LLMs, where the model provides accurate responses to queries based on context or a document.
 
 ## Getting Started
 
@@ -40,7 +41,7 @@ To run these notebooks, you will need:
    ```bash
    jupyter notebook
    ```
-2. **Select a Notebook**: Open any of the notebooks (summarize, generate, few-shot, or translate) to explore the functionality.
+2. **Select a Notebook**: Open any of the notebooks (summarize, generate, few-shot, translate, or QA) to explore its functionality.
 3. **Follow Instructions**: Each notebook includes instructions and code for working with LLMs in the context of specific generation tasks.
 
 ## Use Cases
@@ -49,6 +50,7 @@ To run these notebooks, you will need:
 - **Text Generation**: Create new content, stories, or information-rich text with minimal input.
 - **Few-Shot Learning**: Provide a few examples to guide the model's responses for targeted tasks, such as answering specific questions or following a template.
 - **Translation**: Translate text across multiple languages using LLMs, useful for multilingual applications.
+- **Question-Answering**: Use LLMs to provide context-based answers to questions, enhancing automated support or knowledge retrieval tasks.
 
 ## Contributing
 
